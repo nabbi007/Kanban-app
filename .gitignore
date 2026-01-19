@@ -1,0 +1,25 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# Ignore logs
+*.log
+npm-debug.log*
+logs/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Don't ignore deployment folder
+!deployment/
